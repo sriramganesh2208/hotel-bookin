@@ -1,0 +1,83 @@
+.navbar {
+  background-color: #1976d2; /* Primary color for the navbar */
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navItems {
+  display: flex;
+  align-items: center;
+}
+
+.username {
+  margin-right: 10px;
+}
+
+.navButton {
+  margin-right: 10px;
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .navContainer {
+    padding: 0 10px;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navContainer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  .navItems {
+    margin-top: 10px;
+  }
+
+  .navButton {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+}
+
+/* Responsive CSS for Navbar */
+@media (max-width: 600px) {
+  /* Adjustments for smaller screens */
+  .MuiToolbar-root {
+    padding: 0 10px; /* Adjust padding for smaller screens */
+  }
+  .MuiTypography-root {
+    font-size: 1.2rem; /* Adjust font size for smaller screens */
+  }
+  .MuiButton-root {
+    font-size: 0.8rem; /* Adjust font size for smaller screens */
+    padding: 8px 12px; /* Adjust padding for smaller screens */
+  }
+}
+
+.first{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+

@@ -1,0 +1,42 @@
+/* Custom CSS for registration form */
+
+.container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .al{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form {
+    width: 100%;
+  }
+  
+  .error-message {
+    margin-top: 0.5rem;
+    color: red;
+  }
+  
+  @media (min-width: 600px) {
+    .MuiTextField-root {
+      margin-bottom: 1rem;
+    }
+  }
+  
+  /* Additional styling for typography */
+  h5 {
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  /* Additional styling for submit button */
+  .submit-button {
+    margin-top: 1rem;
+  }
+  
